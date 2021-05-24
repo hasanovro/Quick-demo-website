@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    border-bottom: gainsboro 1px solid;
+    overflow: hidden;
+}
+.nav{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 60%;
+}
+.menu{
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+}
+.menu ul{
+    list-style-type: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.menu ul li:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #1B8EEE;
+}
+/* end of header part */
+
+/* start of main part */
+.main{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+ }
+.main h1{
+    font-size: 60px;
+    color: #1C2C55;
+    padding-top: 50px;
+}
+.main h2{
+    font-size: 50px;
+    color: #1B8EEE;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.main p{
+    font-size: 16px;
+    color: #000000;
+    padding: 10px;
+}
+.main img{
+    width: 40%;
+    padding: 20px;
+}
+/* end of main part */
+
+/* start of text part */
+.text{
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.one{
+    width: 50%;
+    text-align: right;
+    float: left;
+    overflow: hidden;
+    
+}
+.one h1{
+    font-size: 40px;
+    color: #EA5A6D;
+    padding-right: 15px;
+}
+.one p{
+    width: 60%;
+    float: right;
+    font-size: 16px;
+    color: black;
+    padding-right: 15px;
+    line-height: 22px;
+}
+.two{
+    float: left;
+    width: 50%;
+}
+.two h1{
+    width: 50%;
+    font-size: 40px;
+    text-align: left;
+    color: #1C2C55;
+    padding-left: 15px;
+}
+
+/* end of text part */
+
+/* start of grid section */
+.grid{
+    width: 90%;
+    /* height: 200px; */
+    /* background-color: blanchedalmond; */
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.grid1{
+    width: 30%;
+    /* height: 200px; */
+    background-color: #FEEBED;
+    float: left;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    opacity: 0.2;
+}
+.grid1:hover{
+    opacity: 1;
+    width: 33%;
+}
+.grid1 h2{
+    text-align: left;
+    margin-top: 20px;
+}
+.grid1 p{
+    text-align: left;
+    margin-top: 10px;
+}
+.grid2{
+    width: 30%;
+    /* height: 200px; */
+    background-color: #EAF9F4;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    opacity: 0.2;
+}
+.grid2:hover{
+    opacity: 1;
+    width: 33%;
+}
+.grid2 h2{
+    text-align: left;
+    margin-top: 20px;
+}
+.grid2 p{
+    text-align: left;
+    margin-top: 10px;
+}
+.grid3{
+    width: 30%;
+    /* height: 200px; */
+    background-color: #FFF8E8;
+    float: right;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    opacity: 0.2;
+}
+.grid3:hover{
+    opacity: 1;
+    width: 33%;
+}
+.grid3 h2{
+    text-align: left;
+    margin-top: 30px;
+}
+.grid3 p{
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* end of grid section */
+
+/* start of footer section */
+.footer{
+    background-color: #008AFF;
+    text-align: center;
+    height: 100px;
+    margin-top: 100px;
+    color: white;
+}
+.footer:hover{
+    background-color: #000000;
+    color: white;
+}
+.footer p{
+    padding-top: 50px;
+}
+.footer span{
+    /* font-weight: bold; */
+    font-size: 1.2em;
+}
+/* end of footer section */
